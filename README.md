@@ -4,6 +4,7 @@ ________________________________________
 🚀 Live Demo
 🔗 Streamlit App
 👉 https://spam-classifier-with-explanation.streamlit.app/
+
 🔗 FastAPI Backend
 👉 https://spam-classifier-api-uiiy.onrender.com
 ________________________________________
@@ -16,6 +17,7 @@ Why this approach?
 •	LLMs make predictions explainable and user-friendly
 ________________________________________
 🧪 Spam Classification Model
+
 📌 Model Used
 Multinomial Naive Bayes
 This model is trained on processed SMS/Email text using TF-IDF vectorization, making it highly effective for text classification tasks.
@@ -29,6 +31,7 @@ F1-Score	0.9167
 ✔ Strong recall ensures most spam messages are caught
 ________________________________________
 🤖 Large Language Model (LLM) for Explanation
+
 📌 Model Used
 LLaMA-3.1-8B-Instant
 The LLM is used after classification to:
@@ -42,6 +45,7 @@ The LLM is used after classification to:
 •	Ideal for Explainable AI (XAI) use cases
 ________________________________________
 🔄 System Workflow
+
 1.	User enters a message
 2.	Text is preprocessed (tokenization, stopwords removal, stemming)
 3.	Multinomial Naive Bayes predicts → Spam / Not Spam
@@ -52,6 +56,7 @@ o	Explanation
 o	One safety recommendation
 ________________________________________
 🧩 API Endpoints
+
 1️⃣ Spam Prediction
 POST /spam/predict
 Request
@@ -65,6 +70,7 @@ Response
 }
 ________________________________________
 2️⃣ Spam Explanation
+
 POST /spam/explain
 Input
 •	User message
@@ -75,6 +81,7 @@ Output
 •	One helpful advice
 ________________________________________
 🖥️ Streamlit App Features
+
 •	Clean UI for user input
 •	Displays:
 o	🔹 Spam / Not Spam prediction
@@ -83,6 +90,7 @@ o	🔹 LLM-generated explanation
 •	Beginner-friendly and responsive
 ________________________________________
 🛠 Tech Stack
+
 •	Backend: FastAPI
 •	Frontend: Streamlit
 •	ML Model: Multinomial Naive Bayes
@@ -94,6 +102,7 @@ o	API → Render
 o	App → Streamlit Cloud
 ________________________________________
 📌 Key Highlights
+
 ✔ High-accuracy spam detection
 ✔ Explainable AI output
 ✔ Real-time API + UI
@@ -101,13 +110,16 @@ ________________________________________
 ✔ Clear separation of ML and LLM layers
 ________________________________________
 📬 Future Improvements
+
 •	Add confidence scores
 •	Multi-language spam detection
 •	User feedback loop
 •	Model retraining pipeline
 ________________________________________
 👤 Author
+
 Alekhya Chatterjee
 If you found this useful, feel free to ⭐ the repository!
+
 
 
