@@ -3,7 +3,7 @@ An end-to-end Spam Detection system that not only classifies messages as Spam / 
 ________________________________________
 **🚀 Live Demo**
 🔗 Streamlit App
-👉 https://spam-classifier-with-explanation.streamlit.app/
+👉 https://spam-classifier-with-explanation.streamlit.app/](https://spamclassifierappapi.streamlit.app/
 
 🔗 FastAPI Backend
 👉 https://spam-classifier-api-uiiy.onrender.com
@@ -120,6 +120,7 @@ ________________________________________
 
 Alekhya Chatterjee
 If you found this useful, feel free to ⭐ the repository!
+
 
 
 
